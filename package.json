@@ -1,0 +1,27 @@
+{
+  "name": "snake-game-node",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": " node ./server.js",
+    "start:dev": "nodemon ./server.js"
+  },
+  "engines": {
+    "node": "10.15.3"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "cors": "^2.8.5",
+    "dotenv": "^11.0.0",
+    "express": "^4.17.1",
+    "http-errors": "^2.0.0",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^5.13.14",
+    "nodemon": "^1.19.1",
+    "pg": "^8.7.1"
+  }
+}
