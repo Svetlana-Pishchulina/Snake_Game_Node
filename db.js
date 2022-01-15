@@ -4,7 +4,7 @@ const password = process.env.password
 
 const pool = new Pool({
   user: 'postgres',
-  password: password,
+  password: 'root',
   host: 'localhost',
   port: 5432,
   database: 'Snake_Game',
